@@ -12,3 +12,12 @@ export FLASK_APP=microblog.py
 ```bash
 flask run
 ```
+
+
+### Comments
+
+1. Every time the database is modified it is necessary to generate a database migration.
+```bash
+flask db migrate -m "new fields in user model"
+flask db upgrade
+```
