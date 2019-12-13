@@ -12,20 +12,3 @@ export FLASK_APP=microblog.py
 ```bash
 flask run
 ```
-
-### Additional commands
-
-Build database
-```bash
-flask db init
-```
-
-Automatic migration of the database
-```bash
-flask db migrate -m "users table"
-```
-
-Upgrade database
-```bash
-flask db upgrade
-```
