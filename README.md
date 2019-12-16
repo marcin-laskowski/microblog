@@ -21,3 +21,7 @@ flask run
 flask db migrate -m "new fields in user model"
 flask db upgrade
 ```
+
+
+### next step
+- [ ] [Followers](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-viii-followers)
